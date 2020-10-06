@@ -1,3 +1,5 @@
-body {
+.main-content {
     background: #e5a174;
+    margin: 4em auto 0;
+    width: 740px;
 }
