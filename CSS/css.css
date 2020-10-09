@@ -80,13 +80,17 @@
   padding: .15em;
 }
 
+@font-face {
+  font-family: "Fette Bauersche Antiqua UNZ1";
+  src: url("/fonts/Fette Bauersche Antiqua UNZ1.ttf") format("truetype");
+}
 .info__date {
+  font-family: "Fette Bauersche Antiqua UNZ1";
   border-right: 1px solid;
-  text-transform: uppercase;
   font-size: 1.25em;
   font-weight: 900;
   padding: .25em;
-  letter-spacing: .15em;
+  letter-spacing: .1em;
 }
 
 @font-face {
