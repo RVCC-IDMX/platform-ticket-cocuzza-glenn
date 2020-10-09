@@ -25,6 +25,10 @@
   border-bottom: 1px solid;
 }
 
+.manager span {
+    font-variant: small-caps;
+}
+
 .date {
   border-bottom: 1px solid;
   text-transform: uppercase;
