@@ -89,10 +89,15 @@
   letter-spacing: .15em;
 }
 
+@font-face {
+  font-family: "Old Typewriter2.0";
+  src: url("/fonts/Old Typewriter2.0.ttf") format("truetype");
+}
 .info__payment {
+  font-family: "Old Typewriter2.0";
   border-right: 1px solid;
   text-transform: uppercase;
-  padding: .15em;
+  padding: .25em;
 }
 
 .info__company {
