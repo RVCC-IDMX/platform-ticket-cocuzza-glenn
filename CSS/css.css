@@ -1,70 +1,74 @@
 .main-content {
-    background: #e5a174;
-    margin: 4em auto 0;
-    width: 740px;
+  background: #e5a174;
+  margin: 4em auto 0;
+  width: 600px;
+}
+
+.ticket {
+  display: grid;
+  grid-template-columns: auto 145px;
+  padding: 0.5em;
 }
 
 .ticket__main {
-display: grid;
-text-align: center;
-
+  display: grid;
+  text-align: center;
 }
 
 .header {
-font-size: larger;
-text-transform: uppercase;
-border: 1px solid black;
-
+  font-size: larger;
+  text-transform: uppercase;
+  border: 1px solid black;
 }
 
 .manager {
-border-bottom: 1px solid;
+  border-bottom: 1px solid;
 }
 
-.date{
-border-bottom: 1px solid;
-text-transform: uppercase;    
+.date {
+  border-bottom: 1px solid;
+  text-transform: uppercase;
 }
 
-.event{
- border-bottom: 1px solid;    
+.event {
+  border-bottom: 1px solid;
 }
 
-.info__item{
-text-transform: uppercase;   
+.info__item {
+  text-transform: uppercase;
 }
 
-.price{
-text-transform: uppercase;    
+.price {
+  text-transform: uppercase;
 }
 
-.ticket__side{
- display: grid;
- box-sizing: border-box;   
+.ticket__side {
+  display: grid;
+  box-sizing: border-box;
 }
 
-.ticket__side .info{
-text-align: center;
-writing-mode: vertical-rl;
-transform: rotate(360deg);
+.ticket__side .info {
+  text-align: center;
+  writing-mode: vertical-rl;
+  transform: rotate(360deg);
 }
 
 .info__type {
-border-right: 1px solid;
-text-transform: uppercase;    
+  border-right: 1px solid;
+  text-transform: uppercase;
 }
 
 .info__date {
-border-right: 1px solid;
-text-transform: uppercase;   
+  border-right: 1px solid;
+  text-transform: uppercase;
 }
 
-.info__payment{
-border-right: 1px solid;
-text-transform: uppercase;    
+.info__payment {
+  border-right: 1px solid;
+  text-transform: uppercase;
 }
 
-.info__company{
-border-right: 1px solid;
-text-transform: uppercase;    
+.info__company {
+  border-right: 1px solid;
+  text-transform: uppercase;
 }
