@@ -24,6 +24,7 @@
 
 .manager {
   border-bottom: 1px solid;
+  padding-top: .5em;
 }
 
 .manager span {
@@ -37,10 +38,12 @@
   font-weight: bolder;
   letter-spacing: 0.15em;
   font-size: 1.5rem;
+  padding-top: .5em;
 }
 
 .event {
   border-bottom: 1px solid;
+  padding-top: .5em;
 }
 
 .info__item {
@@ -52,6 +55,7 @@
 
 .price {
   text-transform: uppercase;
+  padding-top: .5em;
 }
 
 .ticket__side {
@@ -63,6 +67,7 @@
   text-align: center;
   writing-mode: vertical-rl;
   transform: rotate(360deg);
+  padding-right: 3em;
 }
 
 .info__type {
@@ -73,6 +78,10 @@
 .info__date {
   border-right: 1px solid;
   text-transform: uppercase;
+  font-size: 1.25em;
+  font-weight: 900;
+  padding: .25em;
+  letter-spacing: .15em;
 }
 
 .info__payment {
