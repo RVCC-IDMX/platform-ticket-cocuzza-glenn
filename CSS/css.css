@@ -105,6 +105,8 @@
 }
 
 .info__company {
+  font-family: "Arial Black";
+  font-size: .68em;
   border-right: 1px solid;
   text-transform: uppercase;
   padding: .15em;
