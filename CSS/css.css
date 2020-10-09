@@ -26,12 +26,16 @@
 }
 
 .manager span {
-    font-variant: small-caps;
+  font-variant: small-caps;
 }
 
 .date {
   border-bottom: 1px solid;
   text-transform: uppercase;
+  font-family: sans-serif;
+  font-weight: bolder;
+  letter-spacing: 0.15em;
+  font-size: 1.5rem;
 }
 
 .event {
@@ -40,6 +44,9 @@
 
 .info__item {
   text-transform: uppercase;
+  font-family: sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.2em;
 }
 
 .price {
