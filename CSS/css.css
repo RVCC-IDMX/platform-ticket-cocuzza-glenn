@@ -2,6 +2,7 @@
   background: #e5a174;
   margin: 4em auto 0;
   width: 600px;
+  border-radius: .5rem;
 }
 
 .ticket {
