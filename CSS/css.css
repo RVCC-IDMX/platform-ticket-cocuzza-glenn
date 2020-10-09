@@ -73,6 +73,11 @@
 .info__type {
   border-right: 1px solid;
   text-transform: uppercase;
+  padding: .15em;
+}
+
+.info__place {
+  padding: .15em;
 }
 
 .info__date {
