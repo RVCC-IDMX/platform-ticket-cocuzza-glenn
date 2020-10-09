@@ -87,9 +87,11 @@
 .info__payment {
   border-right: 1px solid;
   text-transform: uppercase;
+  padding: .15em;
 }
 
 .info__company {
   border-right: 1px solid;
   text-transform: uppercase;
+  padding: .15em;
 }
