@@ -16,15 +16,22 @@
   text-align: center;
 }
 
+@font-face {
+  font-family: 'Larson Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Larson Regular'), url('/fonts/LarsonDafont.woff') format('woff');
+  }
 .header {
-  font-size: larger;
-  text-transform: uppercase;
+  font-family: "Larson Regular";
+  font-size: 1.78em;
   border: 1.5px solid black;
 }
 
 .manager {
   border-bottom: 1.5px solid;
   padding-top: 0.2em;
+  font-family: "serif";
   font-size: 1.1em;
 }
 
@@ -113,7 +120,6 @@
   font-size: 1.25em;
   font-weight: 900;
   padding: 0.25em;
-  letter-spacing: 0.1em;
 }
 
 @font-face {
@@ -122,6 +128,7 @@
 }
 .info__payment {
   font-family: "Old Typewriter2.0";
+  font-size: 1em;
   border-right: 1.5px solid;
   text-transform: uppercase;
   padding: 0.25em;
