@@ -24,7 +24,8 @@
   }
 .header {
   font-family: "Larson Regular";
-  font-size: 1.78em;
+  font-size: 2em;
+  font-variant: small-caps;
   border: 1.5px solid black;
 }
 
@@ -58,7 +59,7 @@
   text-transform: uppercase;
   font-family: sans-serif;
   font-weight: bold;
-  font-size: 1.2em;
+  font-size: 1.1em;
   letter-spacing: 0.2em;
   padding-bottom: 0.2em;
 }
