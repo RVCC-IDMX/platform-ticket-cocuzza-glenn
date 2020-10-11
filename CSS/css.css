@@ -24,8 +24,10 @@
   }
 .header {
   font-family: "Larson Regular";
-  font-size: 2em;
+  font-size: 2.2em;
   font-variant: small-caps;
+  word-spacing: -10px;
+  line-height: 0.8em;
   border: 1.5px solid black;
 }
 
